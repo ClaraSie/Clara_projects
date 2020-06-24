@@ -1,0 +1,31 @@
+body{
+    background: #AA06010D;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+}
+ul{
+    margin: 0 auto;
+    padding: 20px;}
+ul li a{
+    font-size: 24px;
+    line-height: 40px;
+    text-decoration: none;
+    color: #212529;
+}
+ul li a:hover{
+    color: #AA0601;
+}
+
+@media(max-width: 768px){
+	.container{
+		max-width: 672px;
+    }
+}
+@media(max-width:414px){
+    .container{
+		max-width: 352px;
+	}
+}

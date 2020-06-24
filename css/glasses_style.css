@@ -32,7 +32,7 @@
 	text-decoration: none;
 }
 .banner{
-	background: url(Image/banner.png) center center no-repeat;
+	background: url(../Image/banner.png) center center no-repeat;
 	height: 840px;
 	max-width: 100%;
 	background-size: cover;
@@ -118,11 +118,11 @@ h2{
 }
 .sunglasses{
 	height: 320px;
-	background: url(Image/sunglasses.png);
+	background: url(../Image/sunglasses.png);
 	background-size: cover;
 }
 .sunglasses:hover{
-	background: url(Image/sunglasses_colorful.png);
+	background: url(../Image/sunglasses_colorful.png);
 	background-size: cover;
 }
 .insideWords{
@@ -142,7 +142,7 @@ h2{
 	justify-content: flex-end;
 }
 .design{
-	background: url('Image/design-background.png') top center no-repeat;
+	background: url('../Image/design-background.png') top center no-repeat;
 	background-color: #fff;
 	/* max-width: 100%; */
 	background-size: cover;
@@ -222,11 +222,11 @@ h2{
 	font-weight: 700;
 }
 .list01{
-	background: url(Image/doubleA.png) center center no-repeat;
+	background: url(../Image/doubleA.png) center center no-repeat;
 	background-size: cover;
 }
 .list02{
-	background: url(Image/youth.png) center center no-repeat;
+	background: url(../Image/youth.png) center center no-repeat;
 	background-size: cover;
 }
 .othersList li p{
@@ -254,19 +254,19 @@ h2{
 	height: 256px;
 }
 .customer_img1{
-	background: url(Image/1.png) center center no-repeat;
+	background: url(../Image/1.png) center center no-repeat;
 	background-size: cover;
 }
 .customer_img2{
-	background: url(Image/2.png) center center no-repeat;
+	background: url(../Image/2.png) center center no-repeat;
 	background-size: cover;
 }
 .customer_img3{
-	background: url(Image/3.png) center center no-repeat;
+	background: url(../Image/3.png) center center no-repeat;
 	background-size: cover;
 }
 .customer_img4{
-	background: url(Image/4.png) center center no-repeat;
+	background: url(../Image/4.png) center center no-repeat;
 	background-size: cover;
 }
 .customerMsg{
@@ -690,7 +690,6 @@ h2{
 		z-index: 120;
 		flex-direction: column;
 		text-align: center;
-		/* border-bottom: 1px solid #FFFFFF; */
 	}
 	.dropdown.active{
 		max-height: 240px;
@@ -710,7 +709,7 @@ h2{
 		width: 48px;
 	}
 	.banner{
-		background: url(Image/banner-sm.png) center center no-repeat;
+		background: url(../Image/banner-sm.png) center center no-repeat;
 		height: 394px;
 	}
 	.bannerContent{
@@ -753,7 +752,7 @@ h2{
 		height: 134px;
 	}
 	.sunglasses:hover{
-		background: url(Image/sunglasses.png);
+		background: url(../Image/sunglasses.png);
 		background-size: cover;
 	}
 	.insideWords{

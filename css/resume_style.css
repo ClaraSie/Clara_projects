@@ -8,7 +8,7 @@
 	margin: 0 auto;
 }
 .header{
-    background: url(Image/photo-1552393700-42696fb89bfa.png) center center no-repeat;
+    background: url(../Image/photo-1552393700-42696fb89bfa.png) center center no-repeat;
 	height: 960px;
 	background-size: cover;
 	display: flex;
@@ -105,7 +105,7 @@ h1{
 	justify-content: space-between;	
 }
 .works{
-	background: url(Image/photo-1561291386-5be50364cfb5.png) center bottom no-repeat;
+	background: url(../Image/photo-1561291386-5be50364cfb5.png) center bottom no-repeat;
 	height: 1855px;
 	text-align: center;
 }
