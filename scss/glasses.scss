@@ -1,0 +1,703 @@
+@import "variable";
+@import "reset";
+@import "glassesLayout";
+
+.banner{
+	background: url(../Image/banner.png) center center no-repeat;
+	height: 840px;
+	max-width: 100%;
+	background-size: cover;
+}
+.bannerContent{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: center;
+	text-align: right;
+	color: $darkred;
+	font-size: 36px;
+	line-height: 50px;
+	font-weight: 900;
+}
+.bannerText{
+	font-size: 64px;
+	line-height: 90px;
+}
+.about{
+	background: #AA06010D;
+	text-align: center;
+	padding-top: 64px;
+	padding-bottom: 80px;
+}
+h2{
+	font-size: 48px;
+	line-height: 72px;
+	color:$darkred;
+	font-weight: 900;
+}
+.aboutText{
+	margin-bottom: 44px;
+}
+.aboutUlList{
+	display: flex;
+	justify-content: space-between;
+    flex-wrap: wrap;
+    
+    li{
+        width: 23.5%;
+        padding: 16px 37px 24px 37px;    
+    }
+    li img{
+        margin-bottom: 40px;
+        width: 100px;
+        height: 100px;
+    }
+    li h4{
+        color:$darkred;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 33px;
+        margin-bottom: 4px;
+    }
+    p{
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+    }
+}
+.classic{
+	padding-top: 64px;
+	padding-bottom: 80px;
+    text-align: center;
+    
+    h2{
+        margin-bottom: 60px;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 1024px;    
+    }
+}
+.insideCard{
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+    .right_side{
+        justify-content: flex-end;
+    }
+}
+.insideImg{
+	width: 66%;
+}
+.sunglasses{
+	height: 320px;
+	background: url(../Image/sunglasses.png);
+	background-size: cover;
+}
+.sunglasses:hover{
+	background: url(../Image/sunglasses_colorful.png);
+	background-size: cover;
+}
+.insideWords{
+	width: 32%;
+	display: flex;
+    align-items: center;
+    
+    p{
+        margin-left: 8px;
+        font-size: 48px;
+        line-height: 72px;
+        color: $red;
+        font-weight: 700;
+        font-style: italic;    
+    }
+}
+.design{
+	background: url('../Image/design-background.png') top center no-repeat;
+	background-color: $white;
+	/* max-width: 100%; */
+	background-size: cover;
+	padding-top: 64px;
+	padding-bottom: 479px;
+}
+.textWhite{
+	color: $white;
+	font-size: 48px;
+	line-height: 72px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+.showCard{
+	max-width: 1540px;
+	height: 840px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+	display: flex;
+	justify-content: space-between;
+
+    .left-section{
+        width: 37.207%;
+    }
+    .right-section{
+        width: 62.207%;
+    }
+}
+.combination{
+	position: relative;
+
+    .img-1{
+        display:block;
+    }
+    .img-2{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+}
+.moreOuter{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	width: 343px;
+}
+.moreBtn{
+	width: 315px;
+	height: 105px;
+	background: $white;
+	color: $red;
+	font-size: 72px;
+	line-height: 105px;
+	font-weight: 700;
+	text-align: left;
+	padding-left: 23px;
+	position:absolute;
+	left: 27px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+.arrow{
+	margin-left: 17px;
+}
+.othersList{
+	display: flex;
+	justify-content: space-between;
+    flex-wrap: wrap;
+    
+    li{
+        width: 48.75%;
+        height: 592px;
+        color: $red;
+        font-size: 72px;
+        line-height: 108px;
+        font-weight: 700;    
+    }
+    li p{
+        width: 100%;
+        height: 100%;
+        background:rgba(255, 255, 255, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.list01{
+	background: url(../Image/doubleA.png) center center no-repeat;
+	background-size: cover;
+}
+.list02{
+	background: url(../Image/youth.png) center center no-repeat;
+	background-size: cover;
+}
+.customerOuter{
+	margin-top: -335px;
+	margin-bottom: 80px;
+}
+.customer{
+	display: flex;
+	justify-content: space-between;
+    flex-wrap: wrap;
+    
+    li{
+        max-width: 23.5%;
+    }
+}
+.customerImgGroup{
+	width: 100%;
+	height: 256px;
+}
+.customer_img1{
+	background: url(../Image/1.png) center center no-repeat;
+	background-size: cover;
+}
+.customer_img2{
+	background: url(../Image/2.png) center center no-repeat;
+	background-size: cover;
+}
+.customer_img3{
+	background: url(../Image/3.png) center center no-repeat;
+	background-size: cover;
+}
+.customer_img4{
+	background: url(../Image/4.png) center center no-repeat;
+	background-size: cover;
+}
+.customerMsg{
+	height: 178px;
+	padding: 16px;
+	border: 1px solid #DEE2E6;
+	color: #212529;
+	font-size: 16px;
+	line-height: 21px;
+	text-align: left;
+    background: $white;
+    
+    p{
+        margin-bottom: 16px;
+    }
+    .name{
+        font-weight: 500;
+    }
+    .comment{
+        line-height: 24px;
+    }
+    .time{
+        color: #707070;
+
+    }
+}
+.contact{
+	background: #AA06010D;
+	padding-top: 64px;
+	padding-bottom: 92px;
+    text-align: center;
+    
+    h2{
+        color: $black;
+        margin-bottom: 24px;    
+    }
+}
+.contactInner{
+	max-width: 66%;
+    margin: 0 auto;
+    
+    p{
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 20px;
+        text-align: left;    
+    }
+}
+.textboxGroup{
+	font-size: 16px;
+	line-height: 24px;
+    text-align: left;
+    
+    label{
+        margin-bottom: 4px;
+        display:block;    
+    }
+    textarea{
+        width: 100%;
+        height: 50px;
+        color: $black;
+        padding:14px 16px;
+        margin-bottom: 16px;
+        font-size: 16px;    
+    }
+    textarea::placeholder{
+        opacity: 0.2;
+    }
+    textarea:last-child{
+        height: 136px;
+    }
+}
+.checkboxGroup{
+	margin-bottom: 40px;
+	display:flex;
+	align-items: center;
+	text-align: left;
+    cursor: pointer;
+    
+    span{
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+.checkmark{
+	height: 24px;
+	width: 24px;
+	margin-right: 4px;
+}
+.btnRed{
+	width: 180px;
+	height: 54px;
+	background: $red;
+	color: $white;
+	font-size: 16px;
+	line-height: 24px;
+	border: none;
+	cursor: pointer;
+}
+.btnRed:hover{
+	background: $darkred;
+}
+@media(max-width:768px){
+    .bannerContent{
+		font-size: 20px;
+		line-height: 28px;
+	}
+	.bannerText{
+		font-size: 48px;
+		line-height: 67px;
+	}
+	.about{
+		padding-top: 40px;
+		padding-bottom: 36px;
+	}
+	h2{
+		font-size: 32px;
+		line-height: 48px;
+	}
+	.aboutText{
+		margin-bottom: 12px;
+    }
+    .aboutUlList{
+        li{
+            width: 48.2142%;
+            padding: 20px 50px 8px 50px;
+            margin-bottom: 12px;    
+        }
+        li img{
+            margin-bottom: 16px;
+        }
+        li h4{
+            font-size: 20px;
+            line-height: 30px;
+            margin-bottom: 8px;    
+        }
+    }
+    .order-1{
+        order: 1;
+    }
+    .order-2{
+        order: 2;
+    }
+    .order-3{
+        order: 3;
+    }
+    .order-4{
+        order: 4;
+    }
+    .classic{
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+        h2{
+            margin-bottom: 32px;
+        }
+        ul{
+            height: 520px;
+        }
+    }
+    .insideImg{
+        width: 61.16%;
+        height: 168px;
+    }
+    .insideWords{
+        width: 35.27%;
+        justify-content: center;
+
+        img{
+            width: 32px;
+            height: 32px;    
+        }
+        p{
+            font-size: 28px;
+            line-height: 42px;    
+        }
+    }
+    .sparkle{
+		width: 23px;
+		height: 32px;
+	}
+	.design{
+		padding-top: 40px;
+		padding-bottom: 417px;
+	}
+	.textWhite{
+		font-size: 32px;
+		line-height: 48px;
+		margin-bottom: 32px;
+	}
+	.showCard{
+		max-width: 672px;
+		height: 367px;
+        margin-bottom: 40px;
+        
+        .left-section{
+            width: 37.35%;
+        }
+        .right-section{
+            width: 62.203%;
+        }
+    }
+    .combination{
+        .img-1{
+            width: 13.88%;
+        }
+        .img-2{
+            width: 85.167%;
+        }
+    }
+    .moreOuter{
+		width: 195px;
+	}
+	.moreBackground{
+		width: 147px;
+		height: 77px;
+	}
+	.moreBtn{
+		width: 178px;
+		height: 59px;
+		font-size: 40px;
+		line-height: 53px;
+		padding-left: 16px;
+        left: 16px;
+
+        img{
+            width: 27.1px;
+            margin-left: 10.04px;
+        }
+    }
+    .othersList{
+        li{
+            width: 47.9167%;
+            height: 280px;
+            font-size: 32px;
+            line-height: 43px;    
+        }
+    }
+    .customerOuter{
+		margin-top: -377px;
+		margin-bottom: 16px;
+	}
+    .customer{
+        li{
+            margin-bottom: 24px;
+            max-width: 48.2143%;
+        }
+    }
+    .contact{
+		padding-top: 40px;
+        padding-bottom: 56px;
+        
+        h2{
+            margin-bottom: 16px;
+        }
+	}
+	.contactInner{
+        max-width: 74.11%;
+        
+        p{
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 16px;    
+        }
+    }
+    .textboxGroup{
+        textarea{
+            margin-bottom: 12px;
+        }
+    }
+	.checkboxGroup{
+		align-items: start;
+		margin-bottom: 24px;
+	}
+}
+
+/*phone*/
+@media(max-width:414px){
+    .banner{
+		background: url(../Image/banner-sm.png) center center no-repeat;
+		height: 394px;
+	}
+	.bannerContent{
+		font-size: 16px;
+		line-height: 22px;
+	}
+	.bannerText{
+		font-size: 32px;
+		line-height: 45px;
+	}
+	.about{
+		padding-top: 32px;
+	}
+	h2{
+		font-size: 24px;
+	}
+    .aboutUlList{
+        li{
+            width: 100%;
+            padding: 20px 64px 8px 64px;
+            margin-bottom: 0;    
+        }
+    }
+    .white_filter{
+		filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(89deg) brightness(106%) contrast(107%);
+	}
+	.classic{
+		padding-top: 24px;
+        padding-bottom: 24px;
+        
+        h2{
+            margin-bottom: 16px;
+        }
+        ul{
+            height: 418px;
+        }
+    }
+    .insideCard{
+		position: relative;
+	}
+	.insideImg{
+		width: 100%;
+		height: 134px;
+	}
+	.sunglasses:hover{
+		background: url(../Image/sunglasses.png);
+		background-size: cover;
+	}
+	.insideWords{
+		width: 100%;
+		position: absolute;
+        z-index: 999;
+        
+        p{
+            color: $white;
+        }
+    }
+    .insideCard{
+        .right_side{
+            justify-content: center;
+        }
+    }
+    .design{
+		padding-top: 24px;
+		padding-bottom: 189px;
+	}
+	.textWhite{
+		font-size: 24px;
+		line-height: 36px;
+		margin-bottom: 16px;
+	}
+	.showCard{
+		max-width: 327px;
+		height: 226px;
+        margin-bottom: 20px;
+
+        .left-section{
+            width: 47.71%;
+        }
+        .right-section{
+            width: 51.68%;
+        }
+    }
+	.combination{
+        .img-1{
+            width: 18.935%;
+            height: 99px;
+            position: absolute;
+            top: 44px;
+        }
+        .img-2{
+            width: 100%;
+        }
+    }
+    .moreBackground{
+		width: 102px;
+		height: 53px;
+	}
+	.moreOuter{
+		width: 135px;
+		height: 53px;
+		top: 70px;
+	}
+	.moreBtn{
+		width: 124px;
+		height: 41px;
+		font-size: 26px;
+		line-height: 34px;
+		padding-left: 9px;
+        left: 11px;
+
+        img{
+            width: 18px;
+            margin-left: 8px;
+        }
+	}
+    .othersList{
+        li{
+            width: 100%;
+            height: 284px;
+            margin-bottom: 20px;    
+        }
+    }
+    .customerOuter{
+		margin-top: -185px;
+		margin-bottom: 8px;
+	}
+    .customer{
+        li{
+            margin-bottom: 16px;
+            max-width: 100%;
+        }
+    }
+    .contact{
+		padding-top: 24px;	
+        padding-bottom: 48px;
+        
+        h2{
+            margin-bottom: 8px;
+        }
+    }
+    .contactInner{
+        max-width: 92.9%;
+        
+        p{
+            margin-bottom: 8px;
+        }
+    }
+    .textboxGroup{
+        line-height: 21px;
+        
+        label{
+            margin-bottom: 2px;
+        }
+        textarea{
+            height: 36px;
+            padding: 7px 12px;
+        }
+        textarea:last-child{
+            height: 100px;
+        }
+    }
+    .checkboxGroup{
+        margin-bottom: 20px;
+        
+        span{
+            font-size: 14px;
+            line-height: 21px;
+        }
+	}
+	.checkmark{
+		height: 17.63px;
+		width: 17.63px;
+		margin-right: 2.37px;
+	}
+}

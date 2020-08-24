@@ -1,3 +1,4 @@
+@import "reset";
 body{
     background: #AA06010D;
 }
@@ -9,17 +10,16 @@ body{
 ul{
     margin: 0 auto;
     padding: 20px;
+    li a{
+        font-size: 24px;
+        line-height: 40px;
+        text-decoration: none;
+        color: #212529;
+    }
+    li a:hover{
+        color: #AA0601;
+    }
 }
-ul li a{
-    font-size: 24px;
-    line-height: 40px;
-    text-decoration: none;
-    color: #212529;
-}
-ul li a:hover{
-    color: #AA0601;
-}
-
 @media(max-width: 768px){
 	.container{
 		max-width: 672px;

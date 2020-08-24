@@ -1,0 +1,155 @@
+@import "variable";
+@import "reset";
+@import "glassesLayout";
+
+// banner
+.banner{
+	background: url(../Image/qna.png) center center no-repeat;
+	height: 304px;
+	max-width: 100%;
+    background-size: cover;
+}
+.qaGroup{
+    padding-top: 214px;
+    display: flex;
+    align-items: center;
+
+    img{
+        width: 57.9px;
+        height: 57.9px;
+        margin-left: 10.1px;
+    }
+}
+h1{
+    font-size: 64px;
+    line-height: 80px;
+    font-weight: 900;
+}
+
+// qalist
+.qna{
+    padding-top: 88px;
+    padding-bottom: 156px;
+}
+h2{
+    font-size: 32px;
+    line-height: 63px;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+.qalist{
+    border: 1px solid $black;
+    border-bottom: 0px;
+
+    .contain{
+        padding: 22px 38px;
+    }
+    h3,p{
+        border-bottom: 1px solid $black;
+    }
+    .question{
+        font-size: 20px;
+        line-height: 23px;
+        font-weight: 600;
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+    }    
+    .arrow{
+        width: 39px;
+        height: 24px;
+    }
+    .ans{
+        background: $gray;
+        font-size: 16px;
+        line-height: 24px;
+    }   
+    //faq箭頭隨著active更改樣式//
+    .card-item:not(.active) .up{
+        display: none;
+    } 
+    .card-item.active .down{
+        display: none;
+    }
+}
+
+//iPad 
+@media(max-width:768px){
+    //banner
+    .banner{
+        background: url(../Image/qna-md.png) center center no-repeat;
+    }    
+    .qaGroup{
+        padding-top: 224px;
+
+        img{
+            width: 48px;
+            height: 48px;
+            margin-left: 16px;
+        }   
+    }
+    h1{
+        font-size: 48px;
+    }
+    
+    //qalist
+    .qna{
+        padding-top: 40px;
+        padding-bottom: 104px;
+    }
+    h2{
+        font-size: 28px;
+        margin-bottom: 32px;
+    }
+    .qalist{
+        .contain{
+            padding: 16px 24px;
+        }
+        .question{
+            font-size: 16px;
+            line-height: 24px;
+        }
+        .ans{
+            font-size: 14px;
+            line-height: 21px;
+        }
+    }
+}
+
+//iphone
+@media(max-width:414px){
+    //banner
+    .banner{
+        height: 143px;
+        background: url(../Image/qna-sm.png) center center no-repeat;
+    }
+    .qaGroup{
+        padding-top: 103px;
+
+        img{
+            width: 24px;
+            height: 24px;
+            margin-left: 8px;
+        }
+    }
+    h1{
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    //qalist
+    .qna{
+        padding-top: 24px;
+        padding-bottom: 56px;
+    }
+    h2{
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 16px;
+    }
+    .qalist{
+        .contain{
+            padding:16px;
+        }       
+    }
+}
