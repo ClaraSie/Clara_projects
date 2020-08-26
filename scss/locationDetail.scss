@@ -1,0 +1,69 @@
+
+.locationList{
+    padding-bottom: 156px;
+}
+.storeDetailCard{
+    width: 32%;
+
+    .storePic{
+        background: url(../Image/70.png) center center no-repeat;
+        height: 224px;
+        background-size: cover;
+    }       
+}
+.map{
+    background: url(../Image/screenshot.png) center center no-repeat;
+    width: 66%;
+    height: 521px;
+}
+
+// iPad
+@media(max-width:768px){
+    .locationList{
+        padding-bottom: 104px;
+    }
+    .storeList{
+        .storeDetailCard{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 32px;
+
+            .storePic{
+                background: url(../Image/70-md.png) center center no-repeat;
+                height: 164px;
+                width: 48.21%;
+            }    
+        }    
+        a{
+            display: none;
+        }
+    }      
+    .map{
+        width: 100%;
+    }
+}
+//iphone
+@media(max-width:414px){
+    .locationList{
+        padding-bottom: 56px;
+    }
+    .storeList{
+        .storeDetailCard{
+            flex-direction: column;
+            margin-bottom: 20px;
+            align-items: normal;
+
+            .storePic{
+                background: url(../Image/70-sm.png) center center no-repeat;
+                width: 100%;
+            }
+        }
+    }
+    .map{
+        background: url(../Image/screenshot-sm.png) center center no-repeat;
+        height: 227px;
+    }
+
+}

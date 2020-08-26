@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/glasses.min.css">
+    <link rel="stylesheet" href="css/location.min.css">
+    <link rel="stylesheet" href="css/locationDetail.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <title>Document</title>
+    <title>門市據點</title>
 </head>
 <body>
     <!-- header -->
@@ -23,9 +24,59 @@
             <li><a href="QandA.html">常見問題</a></li>
         </ul>
     </header>
+    <!-- 內容開始 -->
+    <!-- Banner -->
+    <section class="banner">
+        <div class="container">
+            <div class="bannerGroup">
+                <h1>門市據點</h1>
+                <img src="Image/icon_location.svg" alt="location">
+            </div>
+        </div>
+    </section>
+
+    <section class="locationList">
+        <div class="container">
+            <div class="region">
+                <p>選擇地區</p>
+                <select name="StoreLocation" id="">
+                    <option value="TaipeiZhongshan">台北中山旗艦店</option>
+                </select>
+            </div>
+            <div class="storeList">
+                <!-- <div class="storePic"></div> -->
+
+                <div class="storeDetailCard">
+                    <div class="storePic"></div>
+                    <div>
+                        <h2 class="li-border">台北中山旗艦店</h2>
+                        <div class="li-border storeInfo">
+                            <p>
+                                <img src="Image/icon_telephone.svg" alt="tel" class="iconTel">
+                                電話：(02)000-1234
+                            </p>
+                            <p>
+                                <img src="Image/icon_time_clock.svg" alt="openHours" class="iconTime">
+                                營業時間：10:00-21:00
+                            </p>
+                            <p>
+                                <img src="Image/icon_map_location.svg" alt="location" class="iconLocation">
+                                地址：台北市中山區南京東路25巷2-1號
+                            </p>
+                        </div>
+                        <a href="locationDetail.html">詳細資訊</a>    
+                    </div>
+                </div>  
+                <div class="map"></div>
+            </div>
+        </div>
+    </section>
+
+
+
 
   
-
+    <!-- 內容結束 -->
     <!-- footer -->
     <footer class="footer">
         <div class="container footerInner">
