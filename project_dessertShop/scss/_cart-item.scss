@@ -1,0 +1,76 @@
+.cart-item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    // overflow: hidden;
+    @include mobile{
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+    }
+    li{
+        position: relative;
+        width: 32%; //300px
+        @include mobile{
+            width: 100%;
+        }
+    }
+    .mobile-display-none{
+        @include mobile{
+            display: none;
+        }
+    }
+    img{
+        width: 100%;
+        height: 315px;
+        display: block;
+    }
+    .tag{
+        position: absolute;
+        left: 21px;
+        top: 0;
+        width: 36px;
+        height: 107px;
+        writing-mode: vertical-rl; //直書
+        font-weight: 600;
+        color: $white;
+        background-color: $primary;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .favorite{
+        position: absolute;
+        top: 19px;
+        right: 22px;
+        color: $primary;
+        cursor: pointer;
+    }
+}
+.cart-info{
+    max-width: 100%;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: $font-1;
+    color: $primary;
+    border: 1px solid $info;
+    .title{
+        width: 57%;
+    }
+    .price{
+        width: 43%;
+        font-weight: 600;
+        border-left: 1px solid $info;
+    }
+}
+.cart-btn{
+    width: 100%;
+    height: 65px;
+    font-size: $font-2;
+    font-weight: 600;
+    background-color: $info;
+    color: $primary;
+    border: 0;
+    cursor: pointer;
+}

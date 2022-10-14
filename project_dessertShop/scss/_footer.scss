@@ -1,0 +1,130 @@
+footer{
+    .footer-container{
+        width: 780px;
+        margin: 0 auto;
+        @include mobile{
+            width: 315px;
+        }
+    }
+}
+//--- mail ---//
+.mailme{
+    background-color: $primary;
+    font-size: $font-2;
+    .mailme-inner{
+        display: flex;
+        justify-content: space-between;
+        @include mobile{
+            flex-direction: column;
+        }    
+    }
+    .title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @include mobile{
+            margin-bottom: 30px;
+        }
+    }
+    .logo{
+        height: 40px;
+        width: 40px;
+        margin-right: 20px;
+    }
+    p{
+        color: $info;
+    }
+}
+.input-group{
+    width: 53.4%;
+    position: relative;
+    display: flex;
+    align-content: center;
+    height: 56px;
+    color: $primary;
+    background-color: $info;
+    font-size: $font-2;
+    @include mobile{
+        width: 100%;
+    }
+    .mail{
+        padding: 16px 20px;
+    }
+    input{
+        height: 100%;
+        width: 180px;
+        color: $primary;
+        background-color: $info;
+        border: 0;
+        font-size: $font-1;
+    }
+    input:focus{
+        outline: 0;
+    }
+    .submit{
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: $secondary;
+        width: 64px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+}
+
+//--- footer info ---//
+.footer-main{
+    background-color: $info;
+    color: $primary;
+    .logo-lg-dark{
+        margin-top: 8.9px;
+        margin-bottom: 115.5px;
+        @include mobile{
+            margin-bottom: 39.5px;
+        }
+    }
+}
+.footer-content{
+    @include flex-x;
+    @include mobile{
+        flex-direction: column;
+    }
+}
+.info{
+    margin-bottom: 30px;
+    @include mobile{
+        margin-bottom: 37px;
+    }
+    p{
+        line-height: $font-1;
+    }
+}
+.icon-group{
+    display: flex;
+    @include mobile{
+        margin-bottom: 23px;
+    }
+    li{
+        margin-right: 8px;
+        cursor: pointer;
+    }
+}
+.right-side{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    @include mobile{
+        align-items: start;
+    }
+    img{
+        width: 59px;
+        height: 219px;
+        margin-bottom: 46px;
+        @include mobile{
+            display: none;
+        }
+    }
+} 

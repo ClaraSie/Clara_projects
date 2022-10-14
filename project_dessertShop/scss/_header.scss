@@ -1,0 +1,16 @@
+body {
+    font-family: "PingFangTC", -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+
+.container {
+    margin: 0 auto;
+    max-width: 940px;
+    @include mobile{
+        max-width: 315px;
+    }
+  }
+
+.flex-x{
+    @include flex-x;
+}
+
