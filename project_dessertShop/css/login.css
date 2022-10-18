@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -92,221 +91,169 @@ body {
           justify-content: space-between;
 }
 
-.slider {
-  margin-bottom: 80px;
-}
-
-@media (max-width: 414px) {
-  .slider {
-    margin-bottom: 0;
-  }
-}
-
-@media (max-width: 414px) {
-  .slider .container {
-    max-width: 100vw;
-  }
-}
-
-.banner {
-  height: 496px;
-  width: 100%;
-  display: block;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-@media (max-width: 414px) {
-  .banner {
-    height: 277px;
-  }
-}
-
-.slide_item {
-  margin: 0 auto;
+.memberLogin {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: -80px;
+  padding: 60px 0;
   width: 780px;
 }
 
 @media (max-width: 414px) {
-  .slide_item {
-    margin-top: 0;
-    width: 100%;
-  }
-}
-
-.slide_item .box {
-  width: 33.33%;
-  height: 256px;
-}
-
-@media (max-width: 414px) {
-  .slide_item .box {
-    width: 100%;
-    height: 180px;
-  }
-}
-
-.slide_item li {
-  position: relative;
-  overflow: hidden;
-  font-size: 1.5rem;
-}
-
-@media (max-width: 414px) {
-  .slide_item li {
-    font-size: 1.25rem;
-  }
-}
-
-.slide_item img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  -webkit-filter: blur(5px);
-          filter: blur(5px);
-}
-
-.slide_item a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  opacity: 0.8;
-  -webkit-writing-mode: vertical-lr;
-      -ms-writing-mode: tb-lr;
-          writing-mode: vertical-lr;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
-.slide_item .topic-primary, .slide_item .topic-secondary:hover {
-  background: #3F5D45;
-  color: #FFFFFF;
-}
-
-.slide_item .topic-secondary, .slide_item .topic-primary:hover {
-  background: #FFE180;
-  color: #3F5D45;
-  font-weight: 600;
-}
-
-@media (max-width: 414px) {
-  .card .container {
-    max-width: 100vw;
-  }
-}
-
-.card-bg {
-  background-color: #EAF0ED;
-  color: #8DA291;
-  height: 420px;
-  margin-bottom: 80px;
-}
-
-@media (max-width: 414px) {
-  .card-bg {
-    margin-bottom: 0;
-    height: 100%;
-  }
-}
-
-.card-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  height: 100%;
-}
-
-@media (max-width: 414px) {
-  .card-item {
+  .memberLogin {
+    padding: 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-}
-
-.card-item .title {
-  margin-top: -20px;
-}
-
-@media (max-width: 414px) {
-  .card-item .title {
-    margin-top: 0;
-    background-color: #FFFFFF;
-    padding: 30px 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-}
-
-.card-item .title-img {
-  width: 89px;
-  height: 307px;
-  background-repeat: no-repeat;
-}
-
-@media (max-width: 414px) {
-  .card-item .title-img {
-    height: 60px;
-    width: 196px;
-  }
-}
-
-.card-item .card-img {
-  height: 460px;
-  width: 460px;
-  margin-top: -20px;
-}
-
-@media (max-width: 414px) {
-  .card-item .card-img {
-    margin-top: 0;
-    height: 250px;
     width: 100%;
   }
 }
 
-.card-item .card-img img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 100%;
-  height: 100%;
+.memberLogin .title {
+  font-size: 2.25rem;
+  background-color: #3F5D45;
+  color: #EAF0ED;
+  padding: 40px 0;
+  text-align: center;
+  font-weight: 900;
+  width: 390px;
 }
 
-.card-item .content {
-  line-height: 2rem;
-  -webkit-writing-mode: vertical-rl;
-      -ms-writing-mode: tb-rl;
-          writing-mode: vertical-rl;
+@media (max-width: 414px) {
+  .memberLogin .title {
+    padding: 30px 0;
+    width: 100%;
+  }
+}
+
+.login-form {
+  padding: 1.875rem;
+  background-color: #3F5D45;
+  width: 390px;
+}
+
+@media (max-width: 414px) {
+  .login-form {
+    width: 100%;
+  }
+}
+
+.login-form .input-group {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background-color: #EAF0ED;
+  font-size: 1rem;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.login-form .icon {
+  color: #3F5D45;
+  padding: 16px 20px;
+}
+
+.login-form input[type="text"] {
+  height: 56px;
+  width: calc(100% - 84px);
+  color: #3F5D45;
+  background-color: #EAF0ED;
+  border: 0;
+  font-size: 1rem;
+}
+
+.login-form input::-webkit-input-placeholder {
+  color: #8DA291;
+}
+
+.login-form input:-ms-input-placeholder {
+  color: #8DA291;
+}
+
+.login-form input::-ms-input-placeholder {
+  color: #8DA291;
+}
+
+.login-form input::placeholder {
+  color: #8DA291;
+}
+
+.login-form input:focus {
+  outline: 0;
+}
+
+.form-check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form-check input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  display: inline-block;
+  background-color: #FFE180;
+  color: #FFE180;
+  margin-right: 8px;
+}
+
+.form-check label {
+  display: inline-block;
+  cursor: pointer;
+  color: #EAF0ED;
+  font-weight: 600;
+}
+
+.login {
+  height: 65px;
+  width: 100%;
+  background-color: #FFE180;
+  color: #3F5D45;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  border: 0;
+}
+
+.linkSocialMedia {
+  width: 390px;
+  padding: 1.875rem;
+  background-color: #EAF0ED;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (max-width: 414px) {
+  .linkSocialMedia {
+    width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.linkSocialMedia .subtitle {
+  font-size: 1.5rem;
+  background-color: #EAF0ED;
+  color: #8DA291;
+  text-align: center;
+}
+
+.linkSocialMedia .socialMediaLogo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -316,173 +263,44 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 65px 75px 65px 50px;
+  background-color: #FFFFFF;
+  width: 330px;
+  height: 56px;
+  border: 1px solid #EAF0ED;
 }
 
 @media (max-width: 414px) {
-  .card-item .content {
-    padding: 30px;
-    -webkit-writing-mode: horizontal-tb;
-        -ms-writing-mode: lr-tb;
-            writing-mode: horizontal-tb;
+  .linkSocialMedia .socialMediaLogo {
+    width: 105px;
   }
 }
 
-.card-item .content-1 {
-  padding-left: 0;
+.linkSocialMedia .socialMediaLogo img {
+  width: 108px;
 }
 
 @media (max-width: 414px) {
-  .card-item .content-1 {
-    padding: 30px;
-  }
-}
-
-.custom-title1 {
-  background-image: url(../image/lg-為什麼選擇了做甜點.svg);
-}
-
-@media (max-width: 414px) {
-  .custom-title1 {
-    background-image: url(../image/sm-橫式-為什麼選擇了做甜點.svg);
-  }
-}
-
-.custom-title2 {
-  background-image: url(../image/lg-為什麼一定要吃甜點.svg);
-}
-
-@media (max-width: 414px) {
-  .custom-title2 {
-    background-image: url(../image/sm-橫式-為什麼一定要吃甜點.svg);
-  }
-}
-
-.custom-title3 {
-  margin: 95px auto 80px auto;
-  width: 89px;
-  height: 307px;
-  background-repeat: no-repeat;
-  background-image: url(../image/lg-想吃甜點是不需要理由的.svg);
-}
-
-@media (max-width: 414px) {
-  .custom-title3 {
-    margin: 30px auto;
-    height: 60px;
-    width: 196px;
-    background-image: url(../image/sm-橫式-想吃甜點是不需要理由的.svg);
-    padding: 30px 0;
-  }
-}
-
-.cart-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-bottom: 60px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-@media (max-width: 414px) {
-  .cart-item {
-    margin-bottom: 30px;
-  }
-}
-
-.cart-item li {
-  position: relative;
-  width: 300px;
-}
-
-@media (max-width: 414px) {
-  .cart-item li {
-    width: 100%;
+  .linkSocialMedia .socialMediaLogo img {
+    width: 83px;
   }
 }
 
 @media (max-width: 414px) {
-  .cart-item .mobile-display-none {
+  .mediaDisplayNone {
     display: none;
   }
 }
 
-.cart-item img {
-  width: 100%;
-  height: 315px;
-  display: block;
+.desktopDisplayNone {
+  display: none;
 }
 
-.cart-item .tag {
-  position: absolute;
-  left: 21px;
-  top: 0;
-  width: 36px;
-  height: 107px;
-  -webkit-writing-mode: vertical-rl;
-      -ms-writing-mode: tb-rl;
-          writing-mode: vertical-rl;
-  font-weight: 600;
-  color: #FFFFFF;
-  background-color: #3F5D45;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.cart-item .favorite {
-  position: absolute;
-  top: 19px;
-  right: 22px;
-  color: #3F5D45;
-  cursor: pointer;
-}
-
-.cart-info {
-  max-width: 100%;
-  height: 56px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  font-size: 1.25rem;
-  color: #3F5D45;
-  border: 1px solid #EAF0ED;
-}
-
-.cart-info .title {
-  width: 57%;
-}
-
-.cart-info .price {
-  width: 43%;
-  font-weight: 600;
-  border-left: 1px solid #EAF0ED;
-}
-
-.cart-btn {
-  width: 100%;
-  height: 65px;
-  font-size: 1.5rem;
-  font-weight: 600;
-  background-color: #EAF0ED;
-  color: #3F5D45;
-  border: 0;
-  border-radius: 0;
-  cursor: pointer;
+@media (max-width: 414px) {
+  .desktopDisplayNone {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 footer .footer-container {
@@ -845,4 +663,4 @@ footer .footer-container {
             order: 4;
   }
 }
-/*# sourceMappingURL=all.css.map */
+/*# sourceMappingURL=login.css.map */

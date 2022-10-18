@@ -47,13 +47,13 @@ footer{
     @include mobile{
         width: 100%;
     }
-    .mail{
+    .icon{
         padding: 16px 20px;
     }
     input{
         height: 100%;
         width: 180px;
-        color: $primary;
+        color: $primary-light;
         background-color: $info;
         border: 0;
         font-size: $font-1;
@@ -72,6 +72,7 @@ footer{
         align-items: center;
         justify-content: center;
         cursor: pointer;
+        border: 0; //+
     }
 }
 

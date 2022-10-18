@@ -2,14 +2,13 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
-    // overflow: hidden;
+    flex-wrap: wrap;
     @include mobile{
         margin-bottom: 30px;
-        flex-wrap: wrap;
     }
     li{
         position: relative;
-        width: 32%; //300px
+        width: 300px;
         @include mobile{
             width: 100%;
         }
@@ -72,5 +71,6 @@
     background-color: $info;
     color: $primary;
     border: 0;
+    border-radius:0;
     cursor: pointer;
 }

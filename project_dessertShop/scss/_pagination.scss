@@ -1,0 +1,27 @@
+.pagination{
+    display: flex;
+    margin-bottom: 60px;
+    justify-content: flex-end;
+    @include mobile{
+        margin-bottom: 30px;
+        justify-content: center;
+    }
+    a{
+        color: $primary;
+    }
+    li{
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid 1px $info;
+        font-size: $font-1;
+        &.active, &:hover{
+            background-color: $primary;
+            a{
+                color: $info;
+            }
+        }
+    }
+}
